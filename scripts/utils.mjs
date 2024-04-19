@@ -8,7 +8,9 @@ export const CLIENT_MODS = {
     BADGE_VAULT: "BadgeVault",
     ENMITY: "Enmity",
     VELOCITY: "Velocity",
-    VENCORD: "Vencord"
+    VENCORD: "Vencord",
+    SUNCORD: "Suncord",
+    EQUICORD: "Equicord"
 };
 
 export const addUser = (userId, mod, badges) => {
