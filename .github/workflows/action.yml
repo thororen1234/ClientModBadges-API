@@ -57,6 +57,9 @@ jobs:
       - name: Update Vencord Badges
         run: node scripts/getVencordBadges.mjs
 
+      - name: Update Suncord Badges
+        run: node scripts/getSuncordBadges.mjs
+
       - name: Push Changes
         run: |
           git config --local user.email "actions@github.com"
