@@ -60,6 +60,9 @@ jobs:
       - name: Update Suncord Badges
         run: node scripts/getSuncordBadges.mjs
 
+      - name: Update Equicord Badges
+        run: node scripts/getEquicordBadges.mjs
+
       - name: Push Changes
         run: |
           git config --local user.email "actions@github.com"
