@@ -10,5 +10,24 @@
             "name": "Developer",
             "badge": "https://badges.vencord.dev/badges/789872551731527690/1-8d7e56c6cf02ef9971864723f05094340592d19d.png"
         }
+    ],
+    "Equicord": [
+        "Contributor",
+        {
+            "name": "Spinnin",
+            "badge": "https://i.imgur.com/zlkJR0o.gif"
+        },
+        {
+            "name": "Gumblob",
+            "badge": "https://i.ibb.co/qRDVhqZ/image-2023-12-04-142905575.png"
+        },
+        {
+            "name": "Medallion",
+            "badge": "https://i.ibb.co/j8VjhDC/image-2023-12-04-150933191.png"
+        },
+        {
+            "name": "Mii",
+            "badge": "https://i.imgur.com/xyi8omd.png"
+        }
     ]
 }
