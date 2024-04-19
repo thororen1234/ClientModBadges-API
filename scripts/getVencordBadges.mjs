@@ -46,6 +46,7 @@ const getVencordBadges = async () => {
         }, []);
 
         users.forEach(user => addUser(user.id, CLIENT_MODS.VENCORD, user.badges));
+        console.log(users);
     } catch (e) {
         if (attempts++ > 4)
             console.error("Failed to get Vencord badges after 5 attempts", e);
