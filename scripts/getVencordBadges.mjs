@@ -4,11 +4,9 @@ import * as utils from "./utils.mjs";
 const { addUser, CLIENT_MODS } = utils;
 
 let attempts = 1;
-console.log("test");
 
 const getVencordBadges = async () => {
     try {
-        console.log("test2");
         const { data } = await axios.get(
             "https://raw.githubusercontent.com/Vendicated/Vencord/main/src/utils/constants.ts",
             { headers: { "Cache-Control": "no-cache" } }
@@ -55,3 +53,5 @@ const getVencordBadges = async () => {
         else setTimeout(getVencordBadges, 500);
     }
 };
+
+getVencordBadges();
