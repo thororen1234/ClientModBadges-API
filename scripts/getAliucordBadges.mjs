@@ -1,6 +1,7 @@
 import axios from "axios";
+import * as utils from "./utils.mjs";
 
-const { addUser, CLIENT_MODS } = "./utils.mjs";
+const { addUser, CLIENT_MODS } = utils;
 
 let attempts = 1;
 
@@ -15,11 +16,11 @@ const getAliucordBadges = async () => {
             const { roles } = badges;
             const customBadges = badges.custom ? Object.entries(badges.custom).map(([_, badge]) => ({ name: badge.text, badge: badge.url })) : [];
 
-            const users = [...roles, ...customBadges];
+            const badgeList = [...roles, ...customBadges];
 
             return {
                 id,
-                badges: users,
+                badges: badgeList,
             };
         });
 
