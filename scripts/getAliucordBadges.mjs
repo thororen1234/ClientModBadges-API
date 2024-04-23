@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const { addUser, CLIENT_MODS } = utils;
+const { addUser, CLIENT_MODS } = "./utils.mjs";
 
 let attempts = 1;
 
