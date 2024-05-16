@@ -10,7 +10,7 @@ let attempts = 1;
 const getSuncordBadges = async () => {
     try {
         const { data } = await axios.get(
-            "https://raw.githubusercontent.com/verticalsync/Suncord/main/src/utils/constants.ts",
+            "https://raw.githubusercontent.com/verticalsync/Suncord/dev/src/utils/constants.ts",
             { headers: { "Cache-Control": "no-cache" } }
         );
 
