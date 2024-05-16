@@ -8,7 +8,7 @@ let attempts = 1;
 const getVencordBadges = async () => {
     try {
         const { data } = await axios.get(
-            "https://raw.githubusercontent.com/Vendicated/Vencord/main/src/utils/constants.ts",
+            "https://raw.githubusercontent.com/Vendicated/Vencord/dev/src/utils/constants.ts",
             { headers: { "Cache-Control": "no-cache" } }
         );
 
